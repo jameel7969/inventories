@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-content {
+  width: 80%;
+  margin: auto;
+  padding: 0px 40px 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-name {
+  line-height: 10px;
+  color: #7854f7;
+  font-size: 36px;
+  font-family: "Just Another Hand", cursive;
+}
+
+.theme-icon {
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+  .logo-name {
+    line-height: 10px;
+    color: #7854f7;
+    font-size: 21px;
+    font-family: "Just Another Hand", cursive;
+  }
+}
